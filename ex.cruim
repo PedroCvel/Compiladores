@@ -1,0 +1,39 @@
+begin;
+int x:0;
+int xx:3;
+float y:0.3555;
+bool z:true;
+string ss: "oi sou uma string";
+
+for(int i:0; i < X | i = X; i:i+1) {
+	if(xx > x) {
+		out(xx);
+	};
+	else {
+		if(z = false) {
+			out(x);
+		};
+		else {
+			out(y);
+		};
+	};
+};
+
+bool testeX:false;
+int entrada:0;
+
+while(!testeX) {
+	in(entrada);
+	if(entrada > 10) {
+		testeX:true;
+	};
+};
+
+int mult9vezes5: 9 * 5;
+out(mult9vezes5);
+int dozeRestoDe5: 12 % 5;
+out(dozeRestoDe5);
+if(dozeRestoDe5 $ 3) {
+	out(2);
+};
+end;
